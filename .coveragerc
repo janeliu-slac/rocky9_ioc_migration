@@ -1,0 +1,11 @@
+[run]
+source =
+    rocky9_ioc_migration
+[report]
+omit =
+    #versioning
+    .*version.*
+    *_version.py
+    #tests
+    *test*
+    rocky9_ioc_migration/tests/*
