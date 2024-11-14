@@ -78,11 +78,11 @@ def main():
                 else:
                     modules_dict[subdir] = "-".join(version)
 
-            # (Optional) This function check_for_letters() prints the full path
-            # of all folders that contain subfolders without correctly formatted
-            # version names. For example, in the module subfolder
-            # /cds/group/pcds/epics/R7.0.3.1-2.0/modules/xps8 there is a folder
-            # named 'current'.
+            # (Optional) The function check_for_letters() prints the full path
+            # of all folders that contain subfolders with non-standard version
+            # names. For example, it will print /cds/group/pcds/epics/R7.0.3.1-2.0/modules/xps8.
+            # In /xps8 there is a subfolder named 'current'.
+
             # check_for_letters(subdir)
 
     print(modules_dict)
