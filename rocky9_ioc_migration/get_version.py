@@ -2,31 +2,43 @@
 Creates a JSON file (modules.json) containing EPICS module names and
 their latest versions. This JSON file will be used to update the
 /configure/RELEASE file for every IOC repo.
-
-1. Get every subdirectory name in /cds/group/pcds/epics/R7.0.3.1-2.0/modules.
-
-2. cd into every subdirectory, read the name of each folder (folder name is
-the version number), and find the folder with the latest version.
-
-3. Store the subdirectory name and the latest version as a key-value pair
-   in modules.json.
-
 """
 
 import json
 import os
+import re
 
 root = "/cds/group/pcds/epics/R7.0.3.1-2.0/modules"
+
+
+def check_for_letters(folder):
+    # Check all instances where the version folder name has letters in it
+    # other than 'FAILED', such as /cds/group/pcds/epics/R7.0.3.1-2.0/modules/xps8/current.
+    # This will affect the comparison function that determines the newest
+    # version of a module. It is assumed that the module version numbers
+    # are all in a format similar to 'R3.1.0-1.4.1'.
+
+    dir = root + "/" + folder
+
+    for ver in os.listdir(dir):
+        if os.path.isdir(os.path.join(dir, ver)):
+            # check if there is a char other than 'R' in version name
+            if "FAILED" not in ver and re.search(r"[a-zA-Z]", ver[1:]):
+                print(dir)
 
 
 def get_newest_version(folder):  # iocAdmin
     dir = root + "/" + folder
     versions = []
+    newest = ()
 
-    for item in os.listdir(dir):
-        if os.path.isdir(os.path.join(dir, item)):
-            ver = item
-            if "FAILED" not in ver:
+    for ver in os.listdir(dir):
+        if os.path.isdir(os.path.join(dir, ver)):
+            # Check that 'FAILED' and other chars do not exist in the version
+            # name (other than 'R' at the beginning of the string). This
+            # assumes that the module version numbers are all in a format
+            # similar to 'R3.1.0-1.4.1'.
+            if "FAILED" not in ver and not re.search(r"[a-zA-Z]", ver[1:]):
                 if "-" in ver:
                     first = ver.split("-")[0]
                     second = ver.split("-")[1]
@@ -36,20 +48,17 @@ def get_newest_version(folder):  # iocAdmin
                 versions.append(version)
 
     if versions:
-        newest = versions.pop(
-            0
-        )  # remove first element in versions and assign to newest
+        newest = versions.pop(0)
+
         for current in versions:
-            if current[0] > newest[0]:  # compare first version part
+            if current[0] > newest[0]:
                 newest = current
-            elif (
-                current[0] == newest[0]
-            ):  # if current is R3.1.16 and newest is R3.1.16-1.2.0
+            elif current[0] == newest[0]:
                 # check if both have a second version part
-                if len(current) > 1 and len(newest) > 1:  # false
+                if len(current) > 1 and len(newest) > 1:
                     if current[1] > newest[1]:
                         newest = current
-                elif len(current) > 1:  # false
+                elif len(current) > 1:
                     newest = current
 
     return newest
@@ -62,8 +71,19 @@ def main():
     for item in os.listdir(root):
         if os.path.isdir(os.path.join(root, item)):
             subdir = item
-            ver = get_newest_version(subdir)
-            modules_dict[subdir] = ver
+            version = get_newest_version(subdir)
+            if version:
+                if len(version) <= 1:
+                    modules_dict[subdir] = "".join(version)
+                else:
+                    modules_dict[subdir] = "-".join(version)
+
+            # (Optional) This function check_for_letters() prints the full path
+            # of all folders that contain subfolders without correctly formatted
+            # version names. For example, in the module subfolder
+            # /cds/group/pcds/epics/R7.0.3.1-2.0/modules/xps8 there is a folder
+            # named 'current'.
+            # check_for_letters(subdir)
 
     print(modules_dict)
 
