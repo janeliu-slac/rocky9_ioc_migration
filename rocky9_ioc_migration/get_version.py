@@ -64,7 +64,7 @@ def get_newest_version(folder):  # iocAdmin
     return newest
 
 
-def main():
+def get_version():
     modules_dict = {}
 
     # create a dictionary of module names with their latest versions
@@ -93,4 +93,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    get_version()
