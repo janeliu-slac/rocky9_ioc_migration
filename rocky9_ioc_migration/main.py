@@ -88,21 +88,27 @@ def main():
         if os.path.isdir(os.path.join(root, item)) and '__' not in item:
             subfile = root + item + '/configure/RELEASE'
 
+            print(subfile)
+
             # read the entire RELEASE file
             with open(subfile, 'r') as file:
                 data = file.readlines()
                 newdata = []
 
                 for line in data:
-                    newline = ''.join(line.split(' '))
+                    newline = line.replace('\t', '').strip()
+                    newline = ''.join(newline.split(' '))
+
                     # look for a module environmental variable
                     if '_MODULE_VERSION=' in newline and not line.startswith('#'):
                         env_var = newline.split('=')[0]
-                        if env_var in env_var_dict:
-                            newline = env_var + ' = ' + env_var_dict[env_var]
+                        version = newline.split('=')[1]
+                        if env_var_dict[env_var]:
+                            version = env_var_dict[env_var]
+                        newline = env_var + ' = ' + version
+                        newdata.append(newline.strip())
                     else:
-                        newline = line.strip()
-                    newdata.append(newline)
+                        newdata.append(line.strip())
 
             with open(subfile, 'w') as outfile:
                 for line in newdata:
