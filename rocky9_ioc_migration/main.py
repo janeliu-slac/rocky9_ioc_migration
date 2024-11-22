@@ -10,13 +10,13 @@ IOCADMIN_MODULE_VERSION = R3.1.16-1.4.0
 
 '''
 
-import os
 import json
+import os
+
 from get_module_versions import get_module_versions
 
 
 def main():
-
     get_module_versions()
 
     # root is your current working directory
@@ -48,17 +48,17 @@ def main():
     # recent IOCs.
     with open('env_modules.txt', 'w') as f:
         for item in module_set:
-            f.write(str(item) + "\n")
+            f.write(str(item) + '\n')
 
     '''
-    The next step in the Rocky 9 migration can't be scripted because certain 
-    module environmental variables and their EPICS module folder equivalents 
-    have slightly different names. For example, 'NORMATIVETYPES_MODULE_VERSION'  
-    and 'normativetypescpp' and 'ETHERCAT_MODULE_VERSION' and 'ethercatmc'. 
+    The next step in the Rocky 9 migration can't be scripted because certain
+    module environmental variables and their EPICS module folder equivalents
+    have slightly different names. For example, 'NORMATIVETYPES_MODULE_VERSION'
+    and 'normativetypescpp' and 'ETHERCAT_MODULE_VERSION' and 'ethercatmc'.
     There are about 100 module environmental variables used in all IOC
-    /configure/RELEASE files, so I manually assigned version numbers to the 
-    module environmental variables and saved it to a JSON file 
-    env_vars_versions.json. This JSON file will be used to update all the 
+    /configure/RELEASE files, so I manually assigned version numbers to the
+    module environmental variables and saved it to a JSON file
+    env_vars_versions.json. This JSON file will be used to update all the
     /configure/RELEASE files in IOCs.
     '''
 
