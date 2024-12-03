@@ -21,19 +21,25 @@ def main():
 
     # root is your current working directory
     root = os.path.join(os.path.dirname(__file__), '')
-    iocs = []
+    iocs_config_release = []
+    iocs_release_site = []
     module_set = set()
 
-    # Create a list of IOCs that have a /configure/RELEASE file
+    # Create lists of IOCs that have /configure/RELEASE and RELEASE_SITE files
     for item in os.listdir(root):
         if os.path.isdir(os.path.join(root, item)) and '__' not in item:
-            subfile = root + item + '/configure/RELEASE'
-            if os.path.exists(subfile):
-                iocs.append(subfile)
+            file_config_release = root + item + '/configure/RELEASE'
+            file_release_site = root + item + '/RELEASE_SITE'
+
+            if os.path.exists(file_config_release):
+                iocs_config_release.append(file_config_release)
+
+            if os.path.exists(file_release_site):
+                iocs_release_site.append(file_release_site)
 
     # Create a set of module environmental variable names retrieved from all
-    # IOCs in pcdshub.
-    for filepath in iocs:
+    # IOCs. Use this to build env_vars_versions.json file
+    for filepath in iocs_config_release:
         if os.path.isfile(filepath):
             with open(filepath, 'r+') as file:
                 for line in file:
@@ -42,13 +48,6 @@ def main():
                         mod_name = line.split('=')[0]
                         # put into a set to avoid duplicates
                         module_set.add(mod_name.strip())
-
-    # Outputs module environmental variables currently used in all IOCs to a
-    # text file. Can be used to check that env_vars_versions.json has the most
-    # recent IOCs.
-    with open('env_modules.txt', 'w') as f:
-        for item in module_set:
-            f.write(str(item) + '\n')
 
     '''
     The next step in the Rocky 9 migration can't be scripted because certain
@@ -75,7 +74,12 @@ def main():
 
     for env_var in env_var_dict.copy():
         mod_name = (env_var.split('_MODULE_VERSION')[0]).lower()
-        if mod_name in modules_dict:
+
+        # Newest MOTOR_MODULE_VERSION = R6.9-ess-0.0.1 and does not conform to
+        # semantic versioning. Jeremy (TID) mentioned there may be special
+        # changes in R6.9-ess-0.0.1 that are needed for ioc-common-ads-ioc. So,
+        # here the code does not update MOTOR_MODULE_VERSION.
+        if mod_name in modules_dict and mod_name != 'motor':
             version = modules_dict[mod_name]
             env_var_dict[env_var] = version
 
@@ -86,12 +90,10 @@ def main():
     # for each item in EPICS modules directory
     for item in os.listdir(root):
         if os.path.isdir(os.path.join(root, item)) and '__' not in item:
-            subfile = root + item + '/configure/RELEASE'
-
-            print(subfile)
+            file_config_release = root + item + '/configure/RELEASE'
 
             # read the entire RELEASE file
-            with open(subfile, 'r') as file:
+            with open(file_config_release, 'r') as file:
                 data = file.readlines()
                 newdata = []
 
@@ -110,7 +112,30 @@ def main():
                     else:
                         newdata.append(line.strip())
 
-            with open(subfile, 'w') as outfile:
+            with open(file_config_release, 'w') as outfile:
+                for line in newdata:
+                    outfile.write(line + '\n')
+
+    # Update all IOCs with 'BASE_MODULE_VERSION = R7.0.3.1-2.0'
+    for filepath in iocs_release_site:
+        if os.path.isfile(filepath):
+            print(filepath)
+
+            with open(filepath, 'r+') as file:
+                data = file.readlines()
+                newdata = []
+
+                for line in data:
+                    newline = line.replace('\t', '').strip()
+                    newline = ''.join(newline.split(' '))
+
+                    if 'BASE_MODULE_VERSION=' in line and not line.startswith('#'):
+                        newline = 'BASE_MODULE_VERSION = R7.0.3.1-2.0'
+                        newdata.append(newline.strip())
+                    else:
+                        newdata.append(line.strip())
+
+            with open(filepath, 'w') as outfile:
                 for line in newdata:
                     outfile.write(line + '\n')
 
