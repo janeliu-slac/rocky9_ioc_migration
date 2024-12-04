@@ -44,9 +44,11 @@ def main():
         if os.path.isfile(filepath):
             with open(filepath, 'r+') as file:
                 for line in file:
-                    line = ''.join(line.split(' '))
-                    if '_MODULE_VERSION=' in line and not line.startswith('#'):
-                        mod_name = line.split('=')[0]
+                    newline = line.replace('\t', '').strip()
+                    newline = ''.join(newline.split(' '))
+
+                    if '_MODULE_VERSION=' in newline and not line.startswith('#'):
+                        mod_name = newline.split('=')[0]
                         # put into a set to avoid duplicates
                         module_set.add(mod_name.strip())
 
@@ -86,7 +88,7 @@ def main():
         # changes in R6.9-ess-0.0.1 that are needed for ioc-common-ads-ioc. So,
         # here the code does not update MOTOR_MODULE_VERSION.
 
-        if mod_name in modules_dict and modules_dict[mod_name] and mod_name != 'motor':
+        if mod_name in modules_dict and mod_name != 'motor':
             version = modules_dict[mod_name]
             env_var_dict[env_var] = version
 
