@@ -8,10 +8,13 @@ FFMPEGSERVER_MODULE_VERSION = R2.1.1-2.2.2
 HISTORY_MODULE_VERSION = R2.7.0
 IOCADMIN_MODULE_VERSION = R3.1.16-1.4.0
 
+NOTE: ioc-common-ads-ioc should be updated manually. This IOC does not use the
+same EPICS module versions as other IOCs.
 '''
 
 import json
 import os
+import subprocess
 
 from get_module_versions import get_module_versions
 
@@ -59,41 +62,17 @@ def main():
     and 'normativetypescpp' and 'ETHERCAT_MODULE_VERSION' and 'ethercatmc'.
     There are 100+ module environmental variables used in all IOC
     /configure/RELEASE files. I generated a list of all module environmental
-    variables, manually assigned version numbers when needed, and saved it to
-    a JSON file (env_vars_versions.json). This JSON file will be used to
-    update all /configure/RELEASE files in IOCs.
+    variables, manually assigned version numbers when needed (and wherever a
+    different version number is indicated in the PCDS Rocky 9 Build Status page
+    in Confluence), and saved it to a JSON file (env_vars_versions.json). This
+    JSON file will be used to update all /configure/RELEASE files in IOCs.
     '''
 
-    # Check for any new module environmental variables in IOCs and add them to
-    # env_vars_versions.json. If TID builds more modules for the Rocky 9 EPICS
-    # base, this script will add them to env_vars_versions.json.
+    # Load env_vars_versions.json
     env_var_dict = {}
-    modules_dict = {}
 
     with open('env_vars_versions.json') as file:
         env_var_dict = json.load(file)
-
-    with open('modules.json') as file:
-        modules_dict = json.load(file)
-
-    for var in module_set:
-        if var not in env_var_dict:
-            env_var_dict[var] = ''
-
-    for env_var in env_var_dict.copy():
-        mod_name = (env_var.split('_MODULE_VERSION')[0]).lower()
-
-        # Newest MOTOR_MODULE_VERSION = R6.9-ess-0.0.1 and does not conform to
-        # semantic versioning. TID (Jeremy) mentioned there may be special
-        # changes in R6.9-ess-0.0.1 that are needed for ioc-common-ads-ioc. So,
-        # here the code does not update MOTOR_MODULE_VERSION.
-
-        if mod_name in modules_dict and mod_name != 'motor':
-            version = modules_dict[mod_name]
-            env_var_dict[env_var] = version
-
-    with open('env_vars_versions.json', 'w') as outfile:
-        json.dump(env_var_dict, outfile)
 
     # Update all IOCs with the latest EPICS module version numbers
     for filepath in iocs_config_release:
@@ -132,8 +111,11 @@ def main():
                     newline = line.replace('\t', '').strip()
                     newline = ''.join(newline.split(' '))
 
-                    if 'BASE_MODULE_VERSION=' in line and not line.startswith('#'):
+                    if 'BASE_MODULE_VERSION=' in newline and not line.startswith('#'):
                         newline = 'BASE_MODULE_VERSION = ' + epics_base_version
+                        newdata.append(newline.strip())
+                    elif 'EPICS_SITE_TOP=' in newline and not line.startswith('#'):
+                        newline = 'EPICS_SITE_TOP = /cds/group/pcds/epics'
                         newdata.append(newline.strip())
                     else:
                         newdata.append(line.strip())
@@ -145,3 +127,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # subprocess.call('ioc_git_commit.sh')
