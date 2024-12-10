@@ -1,3 +1,4 @@
+#!/bin/bash
 # Git clone the forked IOC repos into your local working directory.
 
 
