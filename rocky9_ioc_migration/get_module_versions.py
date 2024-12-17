@@ -10,7 +10,7 @@ import re
 
 from packaging import version
 
-root = '/cds/group/pcds/epics/R7.0.3.1-2.0/modules'
+root = "/cds/group/pcds/epics/R7.0.3.1-2.0/modules"
 
 
 def compare_versions(ver1, ver2):
@@ -22,7 +22,7 @@ def compare_versions(ver1, ver2):
     elif v1 < v2:
         return ver2
     else:
-        return 'same'
+        return "same"
 
 
 def get_newest_version(folder):
@@ -30,7 +30,7 @@ def get_newest_version(folder):
     # (subfolder names use semantic versioning). Returns the latest
     # version.
 
-    dir = root + '/' + folder
+    dir = root + "/" + folder
     newest = ()
     versions = []
 
@@ -40,13 +40,13 @@ def get_newest_version(folder):
             # name (other than 'R' at the beginning of the string). This
             # assumes that the module version numbers are all in a format
             # similar to 'R3.1.0-1.4.1'.
-            if 'FAILED' not in ver and not re.search(r'[a-zA-Z]', ver[1:]):
-                if '-' in ver:
-                    first = ver.split('-')[0][1:]
-                    second = ver.split('-')[1]
+            if "FAILED" not in ver and not re.search(r"[a-zA-Z]", ver[1:]):
+                if "-" in ver:
+                    first = ver.split("-")[0][1:]
+                    second = ver.split("-")[1]
                     version = (first, second)
                 else:
-                    version = (ver.split('-')[0][1:],)
+                    version = (ver.split("-")[0][1:],)
                 versions.append(version)
 
     if versions:
@@ -55,7 +55,7 @@ def get_newest_version(folder):
             result = compare_versions(newest[0], current[0])
             if result == current[0]:
                 newest = current
-            elif result == 'same':
+            elif result == "same":
                 # check if both have a second version part
                 if len(current) > 1 and len(newest) > 1:
                     result = compare_versions(newest[1], current[1])
@@ -71,7 +71,7 @@ def get_module_versions():
     modules_dict = {}
 
     # Open the modules.json file and load
-    with open('modules.json') as file:
+    with open("modules.json") as file:
         modules_dict = json.load(file)
 
     # Update modules_dict with the latest version numbers
@@ -80,14 +80,14 @@ def get_module_versions():
             latest_ver = get_newest_version(subfolder)
             subfolder = subfolder.lower()
 
-            if latest_ver and subfolder != 'streamdevice' and subfolder != 'ipac':
+            if latest_ver and subfolder != "streamdevice" and subfolder != "ipac":
                 if len(latest_ver) <= 1:
-                    num = ''.join(latest_ver)
+                    num = "".join(latest_ver)
                 else:
-                    num = '-'.join(latest_ver)
+                    num = "-".join(latest_ver)
 
-                modules_dict[subfolder] = 'R' + num
+                modules_dict[subfolder] = "R" + num
 
     # write to json file
-    with open('modules.json', 'w') as outfile:
+    with open("modules.json", "w") as outfile:
         json.dump(modules_dict, outfile)
