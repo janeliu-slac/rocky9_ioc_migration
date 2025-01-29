@@ -11,7 +11,7 @@ IOCADMIN_MODULE_VERSION = R3.1.16-1.4.0
 Updates a few other environmental variables in RELEASE_SITE.
 
 NOTE: The top 15 most frequently used IOCs are configured differently from the
-non-common IOCs. They were edited by hand.
+non-common IOCs. They should be edited by hand.
 """
 
 import json
@@ -20,6 +20,8 @@ import subprocess
 
 from get_module_versions import get_module_versions
 
+# Environmental variable settings for <top>/RELEASE_SITE. Update this
+# when migrating to a new server.
 epics_base_version = "R7.0.3.1-2.0"
 epics_site_top = "/cds/group/pcds/epics"
 pspkg_root = "/cds/group/pcds/pkg_mgr"
@@ -32,7 +34,7 @@ def main():
     root = os.path.join(os.path.dirname(__file__), "")
     iocs_config_release = []
     iocs_release_site = []
-    module_set = set()
+    # module_set = set()
 
     # Create lists of IOCs that have /configure/RELEASE and RELEASE_SITE files
     for item in os.listdir(root):
@@ -46,18 +48,20 @@ def main():
             if os.path.exists(file_release_site):
                 iocs_release_site.append(file_release_site)
 
-    # Create a set of module environmental variables
-    for filepath in iocs_config_release:
-        if os.path.isfile(filepath):
-            with open(filepath, "r+") as file:
-                for line in file:
-                    newline = line.replace("\t", "").strip()
-                    newline = "".join(newline.split(" "))
+    # # Create a set of module environmental variables. This was used to generate
+    # # the initial version of env_vars_versions.json, which was later
+    # # edited by hand.
+    # for filepath in iocs_config_release:
+    #     if os.path.isfile(filepath):
+    #         with open(filepath, "r+") as file:
+    #             for line in file:
+    #                 newline = line.replace("\t", "").strip()
+    #                 newline = "".join(newline.split(" "))
 
-                    if "_MODULE_VERSION=" in newline and not line.startswith("#"):
-                        mod_name = newline.split("=")[0]
-                        # put into a set to avoid duplicates
-                        module_set.add(mod_name.strip())
+    #                 if "_MODULE_VERSION=" in newline and not line.startswith("#"):
+    #                     mod_name = newline.split("=")[0]
+    #                     # put into a set to avoid duplicates
+    #                     module_set.add(mod_name.strip())
 
     """
     The next step in the Rocky 9 migration can't be scripted because certain
@@ -71,9 +75,7 @@ def main():
     JSON file will be used to update all IOC /configure/RELEASE files.
 
     The following environmental variables and EPICS modules have slightly
-    different spelling. They should be updated by hand in modules.json and
-    env_vars_versions.json. There may be more. I need to track them down.
-
+    different spelling. They should be updated by hand in env_vars_versions.json.
     'ETHERCAT_MODULE_VERSION' --> 'ethercatmc'
     'NORMATIVETYPES_MODULE_VERSION' --> 'normativetypescpp'
     'STREAM_MODULE_VERSION' --> 'streamdevice'
@@ -94,8 +96,8 @@ def main():
     with open("modules.json") as file:
         modules_dict = json.load(file)
 
-    # Update env_vars_versions.json with the newest EPICS module version
-    # numbers. Check PCDS Rocky 9 Build Status Confluence page 'Notes'
+    # Update env_vars_versions.json with the newest module version numbers.
+    # Manually check PCDS Rocky 9 Build Status Confluence page 'Notes'
     # column for modules that should use an older version number and
     # manually update.
     for key in env_var_dict.copy():
@@ -132,7 +134,8 @@ def main():
                 for line in newdata:
                     outfile.write(line + "\n")
 
-    # Update BASE_MODULE_VERSION, EPICS_SITE_TOP, and PSPKG_ROOT in all IOCs.
+    # Update BASE_MODULE_VERSION, EPICS_SITE_TOP, and PSPKG_ROOT in all
+    # <top>/RELEASE_SITE files.
     for filepath in iocs_release_site:
         if os.path.isfile(filepath):
             with open(filepath, "r+") as file:
