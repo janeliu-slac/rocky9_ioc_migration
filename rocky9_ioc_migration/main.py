@@ -20,8 +20,8 @@ import subprocess
 
 from get_module_versions import get_module_versions
 
-# Environmental variable settings for <top>/RELEASE_SITE. Update this
-# when migrating to a new server.
+# Environmental variable settings for <top>/RELEASE_SITE. Update these
+# variables if needed when migrating to a new server.
 epics_base_version = "R7.0.3.1-2.0"
 epics_site_top = "/cds/group/pcds/epics"
 pspkg_root = "/cds/group/pcds/pkg_mgr"
