@@ -1,7 +1,8 @@
 """
-Creates a JSON file (modules.json) containing EPICS module names and
-their latest versions. This JSON file will be used to update the
-/configure/RELEASE file for every IOC repo.
+Creates a JSON file (modules.json) where keys are EPICS module folder names
+(from /cds/group/pcds/epics/R7.0.3.1-2.0/modules) and values are the latest 
+version numbers. modules.json is used to update env_vars_versions.json, which 
+updates the configure/RELEASE file for every common IOC.
 """
 
 import json
@@ -80,7 +81,7 @@ def get_module_versions():
             latest_ver = get_newest_version(subfolder)
             subfolder = subfolder.lower()
 
-            if latest_ver and subfolder != "streamdevice" and subfolder != "ipac":
+            if latest_ver:
                 if len(latest_ver) <= 1:
                     num = "".join(latest_ver)
                 else:
