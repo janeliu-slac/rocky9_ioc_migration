@@ -20,8 +20,8 @@ right versions to use.
 import json
 import os
 import subprocess
-
 from get_module_versions import get_module_versions
+
 
 # Environmental variable settings for RELEASE_SITE. Update these variables
 # when migrating to a new server.
@@ -29,17 +29,21 @@ epics_base_version = "R7.0.3.1-2.0"
 epics_site_top = "/cds/group/pcds/epics"
 pspkg_root = "/cds/group/pcds/pkg_mgr"
 
+iocs_config_release = []
+iocs_release_site = []
+env_var_dict = {}
+modules_dict = {}
+modules_set = set()
 
-def main():
-    get_module_versions()
+
+def create_ioc_lists():
+    global iocs_config_release
+    global iocs_release_site
+    global modules_set
 
     parent = os.path.dirname(os.path.join(os.path.dirname(__file__), ""))
     grandparent = os.path.dirname(parent)
-    greatgrandparent = os.path.dirname(
-        grandparent)  # /cds/home/j/janeliu/git/iocs
-    iocs_config_release = []
-    iocs_release_site = []
-    module_set = set()
+    greatgrandparent = os.path.dirname(grandparent)
 
     # Create lists of IOCs that have configure/RELEASE and RELEASE_SITE files
     for item in os.listdir(greatgrandparent):
@@ -65,10 +69,12 @@ def main():
                     if "_MODULE_VERSION=" in newline and not line.startswith("#"):
                         mod_name = newline.split("=")[0]
                         # put into a set to avoid duplicates
-                        module_set.add(mod_name.strip())
+                        modules_set.add(mod_name.strip())
 
-    env_var_dict = {}
-    modules_dict = {}
+
+def update_configure_release_file():
+    global env_var_dict
+    global modules_dict
 
     # Contains module environmental variables and their latest version numbers
     with open("env_vars_versions.json") as file:
@@ -80,7 +86,8 @@ def main():
 
     # ########################################################################
     # This section contains module environmental variables whose names do not
-    # correspond exactly to an EPICS module folder name.
+    # correspond exactly to an EPICS module folder name, so their values are
+    # hardcoded.
     # ########################################################################
     env_var_dict["ETHERCAT_MODULE_VERSION"] = modules_dict["ethercatmc"]
     env_var_dict["NORMATIVETYPES_MODULE_VERSION"] = modules_dict["normativetypescpp"]
@@ -91,16 +98,19 @@ def main():
     env_var_dict["DIAG_TIMER_MODULE_VERSION"] = modules_dict["diagtimer"]
 
     # ########################################################################
-    # This section contains module environmental variables whose versions must
-    # be manually updated. Check the tables in the PCDS Rocky 9 Build Status
-    # Confluence page for the correct version numbers.
+    # EPICS modules loosely follow semantic versionining. This section
+    # contains module environmental variables that use a different number than
+    # the latest version number for the current build of EPICS base. Check the
+    # tables in the PCDS Rocky 9 Build Status Confluence page for the correct
+    # version number to use.
     # ########################################################################
     env_var_dict["STREAMDEVICE_MODULE_VERSION"] = "R2.8.9-1.2.2"
     env_var_dict["STREAM_MODULE_VERSION"] = "R2.8.9-1.2.2"
     env_var_dict["IPAC_MODULE_VERSION"] = "R2.15-1.0.2"
 
-    # Update env_vars_versions.json with the newest module version numbers.
-    for key in module_set:
+    # Update the remaining environmental variables with the latest module
+    # version numbers
+    for key in modules_set:
         env_var_lower = (key.split("_MODULE_VERSION")[0]).lower()
 
         try:
@@ -115,7 +125,7 @@ def main():
     with open("env_vars_versions.json", "w") as outfile:
         json.dump(env_var_dict, outfile)
 
-    # Update all common IOCs with the latest module version numbers
+    # Update configure/RELEASE files all common IOCs
     for filepath in iocs_config_release:
         if os.path.isfile(filepath):
             with open(filepath, "r") as file:
@@ -140,8 +150,9 @@ def main():
                 for line in newdata:
                     outfile.write(line + "\n")
 
-    # In RELEASE_SITE files update BASE_MODULE_VERSION, EPICS_SITE_TOP, and
-    # PSPKG_ROOT variables
+
+def update_release_site_file():
+    # Update BASE_MODULE_VERSION, EPICS_SITE_TOP, and PSPKG_ROOT
     for filepath in iocs_release_site:
         if os.path.isfile(filepath):
             with open(filepath, "r+") as file:
@@ -180,6 +191,13 @@ def main():
             with open(filepath, "w") as outfile:
                 for line in newdata:
                     outfile.write(line + "\n")
+
+
+def main():
+    get_module_versions()
+    create_ioc_lists()
+    update_configure_release_file()
+    update_release_site_file()
 
 
 if __name__ == "__main__":
