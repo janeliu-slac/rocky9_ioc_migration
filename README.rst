@@ -11,19 +11,12 @@ rocky9_ioc_migration
 
 `Documentation <https://pcdshub.github.io/rocky9_ioc_migration/>`_
 
-A collection of scripts for migrating IOC repos from RHEL7 to Rocky 9. The scripts can be reused 
-for future efforts to migrate to a newer server.
+A collection of scripts for migrating IOC repos from RHEL7 to Rocky 9. Most of the steps have been automated. Several manual updates will be needed and are described in the 'Instructions' section below. The scripts can be reused for future efforts to migrate to a newer server.
 
 Requirements
 ------------
 
 * Python 3.9+
-
-Overview
-------------
-
-This application automates the process of migrating common IOCs to a new server. Most of the steps have been automated. A few manual updates will be needed and are described in the 'Instructions' section below.
-
 
 Instructions
 ------------
@@ -52,5 +45,5 @@ Some of the top 15 common IOCs, such as ``ioc-common-ads-ioc`` and ``ioc-common-
 Running the Tests
 -----------------
 
-Each top 15 common IOC should be tested on the new development server before being tested with hardware. Test IOCs already exist for most of the top 15 and are located in the IOC's ``children`` folder.
+Each top 15 common IOC should be tested on the new development server before it's tested with hardware. Test IOCs already exist for most of the top 15 and are located in the IOC's ``children`` folder.
 
