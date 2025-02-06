@@ -35,17 +35,16 @@ Instructions
 
 6. Once all repos have been cloned run ``python main.py``. This will grab the latest EPICS module version numbers from ``/cds/group/pcds/epics/R7.0.3.1-2.0/modules`` and update every IOC's ``configure/RELEASE`` file with the latest version numbers. It will also update each IOC's ``RELEASE_SITE`` files. EPICS modules loosely follow the semantic versioning system.
 
-7. Check the new server's IOC build status page to determine which module environmental variables will need to be manually updated (for Rocky 9 it's at https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=PCDS&title=PCDS%20Rocky%209%20Build%20Status). For example, the current version of EPICS uses version R2.15-1.0.2 of the ipac module and not R3.0.0-1.1.5 (the latest version number). Open the file ``module_version_exceptions.json`` located in ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration``. Add or update module environmental variables with the correct version number.
+7. Check the new server's IOC build status page to determine which module environmental variables will need to be manually updated (for Rocky 9 it's at https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=PCDS&title=PCDS%20Rocky%209%20Build%20Status). For example, the current version of EPICS uses version R2.15-1.0.2 of the ipac module and not R3.0.0-1.1.5 (the latest version number). Open the file ``module_version_exceptions.json`` located in ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration``. Add or update any exceptions to current module versions.
 
-8. (Optional) I found this step to be useful for managing the top 15 most commonly used IOCs. From inside ``/iocs`` create a new folder called ``manual_updates``. Move the top 15 most commonly used IOCs into ``manual_updates``. The top 15 are ``ioc-common-ads-ioc, ioc-common-aerotech, ioc-common-bk-1697, ioc-common-epixMon, ioc-common-evr, ioc-common-gigECam, ioc-common-ict, ioc-common-ims, ioc-common-pdu_snmp, ioc-common-pvNotepad, ioc-common-qmini, ioc-common-smaract, ioc-common-thorlabs-ell, ioc-common-tprStandalone`` (various motor records and leviton IOCs are also commonly used but were not tested with hardware in the Makerspace for this migration).
+8. (Optional) I found this step to be useful for managing the top 15 most commonly used IOCs. From inside ``/iocs`` create a new folder called ``manual_updates``. Move the top 15 most commonly used IOCs into ``manual_updates``. The top 15 are ``ioc-common-ads-ioc, ioc-common-aerotech, ioc-common-bk-1697, ioc-common-epixMon, ioc-common-evr, ioc-common-gigECam, ioc-common-ict, ioc-common-ims, ioc-common-pdu_snmp, ioc-common-pvNotepad, ioc-common-qmini, ioc-common-smaract, ioc-common-thorlabs-ell, ioc-common-tprStandalone`` (various motor records and leviton IOCs are also commonly used but it wasn't feasible to test them in the Makerspace for this migration).
 
 Some of the top 15 common IOCs, such as ``ioc-common-ads-ioc`` and ``ioc-common-gigECam``, use a different set of EPICS module version numbers and will need to be manually updated.
 
-9. From ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration`` run ``python main.py`` to update IOCs with new module version numbers as they are released by TID.
+9. If TID releases new module versions, navigate to ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration`` and run ``python main.py`` again to update all IOCs.
 
 
 Running the Tests
 -----------------
 
-Each top 15 common IOC should be tested on the new development server before it's tested with hardware. Test IOCs already exist for most of the top 15 and are located in the IOC's ``children`` folder.
-
+Each top 15 common IOC should be tested on the new development server before it's tested on the test host in Makerspace. Test IOCs already exist for most of the top 15 and are located in the IOC's ``children`` folder.
