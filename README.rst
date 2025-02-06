@@ -20,16 +20,16 @@ Requirements
 
 Instructions
 ------------
-
+::
 1. In your working directory create a folder called ``iocs``.
 
 2. Git fork the Rocky 9 IOC Migration repo from https://github.com/pcdshub/rocky9_ioc_migration. Git clone the fork in ``/iocs``. The new directory structure should be ``<your working directory>/iocs/rocky9_ioc_migration``.
 
-3. Navigate to ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration`` and run ``ioc_fork_all.sh`` to git fork all common IOC repos. You may need to run this script multiple times until all 150+ repos have been forked. This is due to restrictions by Github for how quickly a user can fork a large number of repos.
+3. Navigate to ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration`` and run ``ioc_fork_all.sh`` to git fork all common IOC repos. You may need to run this script multiple times until all 150+ repos have been forked. This is due to restrictions imposed by Github for how quickly a user can fork a large number of repos.
 
 4. From ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration`` run ``ioc_clone_all.sh`` to git clone all the forked repos into ``/iocs``.
 
-5. Navigate to ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration/main.py`` and update the global variable ``epics_base_version`` with the new verison number. Also update ``epics_site_top`` and ``pspkg_root`` if needed.
+5. Navigate to ``/iocs/rocky9_ioc_migration/rocky9_ioc_migration``, open ``main.py``, and update the global variable ``epics_base_version`` with the new verison number. Also update ``epics_site_top`` and ``pspkg_root`` if needed.
 
 6. Once all repos have been cloned run ``python main.py``. This will grab the latest EPICS module version numbers from ``/cds/group/pcds/epics/R7.0.3.1-2.0/modules`` and update every IOC's ``configure/RELEASE`` file with the latest version numbers. It will also update each IOC's ``RELEASE_SITE`` files. EPICS modules loosely follow the semantic versioning system.
 
