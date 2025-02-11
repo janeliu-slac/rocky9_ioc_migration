@@ -19,20 +19,24 @@ right versions to use.
 
 import json
 import os
-import subprocess
+
 from get_module_versions import get_module_versions
 
 
-# Environmental variable settings for RELEASE_SITE. Update these variables
-# when migrating to a new server.
+# ########################################################################
+# Update the variables below when migrating to a new server! These are
+# environmental variable settings for RELEASE_SITE files.
+# ########################################################################
 epics_base_version = "R7.0.3.1-2.0"
 epics_site_top = "/cds/group/pcds/epics"
 pspkg_root = "/cds/group/pcds/pkg_mgr"
 
+# other global variables (do not modify)
 iocs_config_release = []
 iocs_release_site = []
 env_var_dict = {}
 modules_dict = {}
+exceptions_dict = {}
 modules_set = set()
 
 
@@ -75,6 +79,7 @@ def create_ioc_lists():
 def update_configure_release_file():
     global env_var_dict
     global modules_dict
+    global exceptions_dict
 
     # Contains module environmental variables and their latest version numbers
     with open("env_vars_versions.json") as file:
@@ -84,11 +89,8 @@ def update_configure_release_file():
     with open("modules.json") as file:
         modules_dict = json.load(file)
 
-    # ########################################################################
-    # This section contains module environmental variables whose names do not
-    # correspond exactly to an EPICS module folder name, so their values are
-    # hardcoded.
-    # ########################################################################
+    # Some module environmental variables names do not correspond exactly to an
+    # EPICS module folder name, so their values are hardcoded here.
     env_var_dict["ETHERCAT_MODULE_VERSION"] = modules_dict["ethercatmc"]
     env_var_dict["NORMATIVETYPES_MODULE_VERSION"] = modules_dict["normativetypescpp"]
     env_var_dict["BLD_CLIENT_MODULE_VERSION"] = modules_dict["bldclient"]
@@ -97,30 +99,23 @@ def update_configure_release_file():
     env_var_dict["TIMING_API_MODULE_VERSION"] = modules_dict["timingapi"]
     env_var_dict["DIAG_TIMER_MODULE_VERSION"] = modules_dict["diagtimer"]
 
-    # ########################################################################
-    # EPICS modules loosely follow semantic versionining. This section
-    # contains module environmental variables that use a different number than
-    # the latest version number for the current build of EPICS base. Check the
-    # tables in the PCDS Rocky 9 Build Status Confluence page for the correct
-    # version number to use.
-    # ########################################################################
-    env_var_dict["STREAMDEVICE_MODULE_VERSION"] = "R2.8.9-1.2.2"
-    env_var_dict["STREAM_MODULE_VERSION"] = "R2.8.9-1.2.2"
-    env_var_dict["IPAC_MODULE_VERSION"] = "R2.15-1.0.2"
-
     # Update the remaining environmental variables with the latest module
     # version numbers
     for key in modules_set:
         env_var_lower = (key.split("_MODULE_VERSION")[0]).lower()
-
         try:
             env_var_dict[key] = modules_dict[env_var_lower]
         except KeyError:
-            if not env_var_dict[key]:
-                env_var_dict[key] = ""
-                print(
-                    f"Unable to find a module version number for '{key}'. It may be obsolete/no longer used or the EPICS module folder name may be spelled differently."
-                )
+            print(
+                f"A module version number does not exist for '{key}'. It may be obsolete/no longer used or the EPICS module folder name may be spelled differently.")
+
+    # Update modules environmental variables that require an older
+    # version number.
+    with open("module_version_exceptions.json") as file:
+        exceptions_dict = json.load(file)
+
+    for except_key, except_val in exceptions_dict.items():
+        env_var_dict[except_key] = except_val
 
     with open("env_vars_versions.json", "w") as outfile:
         json.dump(env_var_dict, outfile)
@@ -202,4 +197,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # subprocess.call('ioc_git_commit.sh')  # creates a new branch, adds, commits, pushes, opens PR
