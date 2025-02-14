@@ -75,7 +75,6 @@ def create_ioc_lists():
                         # put into a set to avoid duplicates
                         modules_set.add(mod_name.strip())
 
-
 def update_configure_release_file():
     global env_var_dict
     global modules_dict
@@ -89,16 +88,6 @@ def update_configure_release_file():
     with open("modules.json") as file:
         modules_dict = json.load(file)
 
-    # Some module environmental variables names do not correspond exactly to an
-    # EPICS module folder name, so their values are hardcoded here.
-    env_var_dict["ETHERCAT_MODULE_VERSION"] = modules_dict["ethercatmc"]
-    env_var_dict["NORMATIVETYPES_MODULE_VERSION"] = modules_dict["normativetypescpp"]
-    env_var_dict["BLD_CLIENT_MODULE_VERSION"] = modules_dict["bldclient"]
-    env_var_dict["PVDATA_MODULE_VERSION"] = modules_dict["pvdatacpp"]
-    env_var_dict["PVACCESS_MODULE_VERSION"] = modules_dict["pvaccesscpp"]
-    env_var_dict["TIMING_API_MODULE_VERSION"] = modules_dict["timingapi"]
-    env_var_dict["DIAG_TIMER_MODULE_VERSION"] = modules_dict["diagtimer"]
-
     # Update the remaining environmental variables with the latest module
     # version numbers
     for key in modules_set:
@@ -108,6 +97,16 @@ def update_configure_release_file():
         except KeyError:
             print(
                 f"A module version number does not exist for '{key}'. It may be obsolete/no longer used or the EPICS module folder name may be spelled differently.")
+            
+    # Some module environmental variables names do not correspond exactly to an
+    # EPICS module folder name, so their values are hardcoded here.
+    env_var_dict["ETHERCATMC_MODULE_VERSION"] = modules_dict["ethercatmc"]
+    env_var_dict["NORMATIVETYPES_MODULE_VERSION"] = modules_dict["normativetypescpp"]
+    env_var_dict["BLD_CLIENT_MODULE_VERSION"] = modules_dict["bldclient"]
+    env_var_dict["PVDATA_MODULE_VERSION"] = modules_dict["pvdatacpp"]
+    env_var_dict["PVACCESS_MODULE_VERSION"] = modules_dict["pvaccesscpp"]
+    env_var_dict["TIMING_API_MODULE_VERSION"] = modules_dict["timingapi"]
+    env_var_dict["DIAG_TIMER_MODULE_VERSION"] = modules_dict["diagtimer"]
 
     # Update modules environmental variables that require an older
     # version number.
