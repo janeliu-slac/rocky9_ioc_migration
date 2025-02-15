@@ -49,15 +49,19 @@ def create_ioc_lists():
     grandparent = os.path.dirname(parent)
     greatgrandparent = os.path.dirname(grandparent)
 
-    # Create lists of IOCs that have configure/RELEASE and RELEASE_SITE files
+    # Create lists of IOCs that have configure/RELEASE, configure/RELEASE.local
+    # and RELEASE_SITE files
     for item in os.listdir(greatgrandparent):
         if os.path.isdir(os.path.join(greatgrandparent, item)) and "__" not in item:
             file_config_release = greatgrandparent + "/" + item + "/configure/RELEASE"
+            file_config_release_local = greatgrandparent + \
+                "/" + item + "/configure/RELEASE.local"
             file_release_site = greatgrandparent + "/" + item + "/RELEASE_SITE"
 
             if os.path.exists(file_config_release):
                 iocs_config_release.append(file_config_release)
-
+            if os.path.exists(file_config_release_local):
+                iocs_config_release.append(file_config_release_local)
             if os.path.exists(file_release_site):
                 iocs_release_site.append(file_release_site)
 
@@ -74,6 +78,7 @@ def create_ioc_lists():
                         mod_name = newline.split("=")[0]
                         # put into a set to avoid duplicates
                         modules_set.add(mod_name.strip())
+
 
 def update_configure_release_file():
     global env_var_dict
@@ -97,7 +102,7 @@ def update_configure_release_file():
         except KeyError:
             print(
                 f"A module version number does not exist for '{key}'. It may be obsolete/no longer used or the EPICS module folder name may be spelled differently.")
-            
+
     # Some module environmental variables names do not correspond exactly to an
     # EPICS module folder name, so their values are hardcoded here.
     env_var_dict["ETHERCATMC_MODULE_VERSION"] = modules_dict["ethercatmc"]
