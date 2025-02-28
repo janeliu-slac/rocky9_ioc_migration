@@ -5,19 +5,14 @@
 ##############################################################################
 branch_name="rocky9_master"
 
-# Go up into ../../iocs folder
-cd ../..
-
 ##### Runs 'make' on all IOCs. If IOC builds without errors, open a PR.
-error_log="error.log"
+error_log="$(pwd)/error.log"
+
+rm "$error_log"
 touch "$error_log"
 
-# find . -maxdepth 2 -type d -name .git -exec sh -c "cd \"{}\"/../ && \
-# make_distclean && \
-# make && \
-# { echo -e \"\n\"; pwd; } >> $error_log && \
-# make 2>> $error_log && \
-# sleep 2" \;
+# Go up into ../../iocs folder
+cd ../..
 
 for dir in */; do
     if [ -d "$dir" ]; then
@@ -26,7 +21,12 @@ for dir in */; do
             echo -e "\e[1;35m$dir.\e[0m"
             git checkout $branch_name
             make distclean
-            make 2>$error_log
+            make
+            {
+                echo -e \"\n\"
+                pwd
+            } >>$error_log
+            make 2>>$error_log
             if [ $? -ne 0 ]; then
                 echo "An error occurred during make. See error.log for details."
             else
