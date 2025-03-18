@@ -6,8 +6,8 @@
 
 # Git fork repos that start with "ioc-common"
 gh repo list pcdshub --limit 2000 | while read -r repo _; do
-  if [[ $repo == pcdshub/ioc-common* ]] ;
-  then
+  if [[ $repo == pcdshub/ioc-common* ]]; then
     gh repo fork "$repo" --default-branch-only --remote
+    sleep 2
   fi
 done
