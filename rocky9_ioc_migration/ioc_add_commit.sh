@@ -48,7 +48,10 @@ for dir in */; do
         (
             cd "$dir"
             pwd
-            git checkout $branch_name
+            git checkout -b $branch_name
+            git remote add upstream git@github.com:pcdshub/$dir.git
+            git remote -v
+
             if [ -f "$release_site_file" ]; then
                 git diff --quiet "$release_site_file"
                 if [ $? -ne 0 ]; then
@@ -57,6 +60,7 @@ for dir in */; do
                     echo "Updated $dir $release_site_file."
                 fi
             fi
+
             if [ -d "configure" ]; then
                 cd configure
                 if [ -f "$release_file" ]; then
@@ -80,7 +84,7 @@ for dir in */; do
             fi
             git push --set-upstream origin $branch_name
             cd ..
-            sleep 3
+            sleep 2
         )
     fi
 done
