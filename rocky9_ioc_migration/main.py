@@ -135,7 +135,11 @@ def update_configure_release_file():
                     newline = line.replace("\t", "").strip()
                     newline = "".join(newline.split(" "))
 
-                    if "_MODULE_VERSION=" in newline and not line.startswith("#"):
+                    if "BASE_MODULE_VERSION=" in newline and not line.startswith("#"):
+                        newline = ""
+                        newdata.append(newline.strip())
+
+                    elif "_MODULE_VERSION=" in newline and not line.startswith("#"):
                         env_var = newline.split("=")[0]
                         version = newline.split("=")[1]
                         if env_var_dict[env_var]:
