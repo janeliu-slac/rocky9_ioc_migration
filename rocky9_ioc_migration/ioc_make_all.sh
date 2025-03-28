@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##############################################################################
-# REQUIRES UPDATE: Change the 'branch_name' variable
+# REQUIRES UPDATE: Change the 'user' and 'branch_name' variables
 ##############################################################################
 branch_name="rocky9_master"
 
@@ -12,7 +12,7 @@ export HOME_DIR="$(
     pwd -P
 )"
 error_log="$HOME_DIR/error.log"
-not_building="$HOME_DIR/does_not_build.csv"
+not_building="$HOME_DIR/does_not_build.txt"
 
 rm "$error_log"
 rm "$not_building"
@@ -29,6 +29,7 @@ for dir in */; do
             cd "$dir"
             echo -e "\e[1;35m$dir\e[0m"
             git checkout $branch_name
+            git push --set-upstream origin $branch_name
             make distclean
             make
             {
@@ -37,11 +38,12 @@ for dir in */; do
             } >>$error_log
             make 2>>$error_log
             if [ $? -ne 0 ]; then
-                printf "\nAn error occurred during make. See error.log for details.\n"
+                printf "\nFailure. An error occurred during make. See error.log for details.\n"
                 echo -e "$dir" >>$not_building
             else
-                printf "\nSuccessfully ran 'make'. Opening a pull request.\n"
-                gh pr create --title "ECS-6549 Build and release IOCs for Rocky 9" --body "Updated configuration files for Rocky 9 migration." --base "rocky9_master" --head "rocky9_master"
+                printf "\nSuccessfully ran 'make'. Attempting to open a pull request.\n"
+                gh repo set-default git@github.com:pcdshub/$dir.git
+                gh pr create --title "ECS-6549 Build and release IOCs for Rocky 9" --body "Updated configuration files for Rocky 9 migration."
             fi
             cd ..
             sleep 2
