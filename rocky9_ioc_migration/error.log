@@ -1,0 +1,2010 @@
+
+/cds/home/j/janeliu/git/iocs/ioc-common-BK-Precision
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: BK-Precision] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: BK-PrecisionApp.install] Error 2
+
+/cds/home/j/janeliu/git/iocs/ioc-common-Eurotherm
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+dbdExpand.pl: Can't find file 'drvEurotherm.dbd'
+  while reading 'drvEurotherm.dbd' to create 'Eurotherm.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/Eurotherm.dbd: $(COMMON_DIR)/drvEurotherm.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/Eurotherm.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: EurothermApp.install] Error 2
+
+/cds/home/j/janeliu/git/iocs/ioc-common-Keithley
+make[2]: *** No rule to make target '../../display/Keithley.edl', needed by 'buildInstall'.  Stop.
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: srcDisplay.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: KeithleyApp.install] Error 2
+
+/cds/home/j/janeliu/git/iocs/ioc-common-MMC-100
+dbdExpand.pl: Can't find file 'mmc100Record.dbd'
+  while reading 'mmc100Record.dbd' to create 'MMC100.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/MMC100.dbd: $(COMMON_DIR)/mmc100Record.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/MMC100.dbd] Error 2
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-MMC-100/MMC100App/src/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-MMC-100/MMC100App/src'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-MMC-100/MMC100App'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: MMC100App.install] Error 2
+
+/cds/home/j/janeliu/git/iocs/ioc-common-NewportXPS
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+msi: Can't open file 'archive_iocAdmin.template'
+input: '' at 
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.archive:62: ../O.Common/xps-ioc.archive] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: XPSApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-NewportXPS8
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-OXCS700
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+dbdExpand.pl: Can't find file 'genSubRecord.dbd'
+  while reading 'genSubRecord.dbd' to create 'OXCS700.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/OXCS700.dbd: $(COMMON_DIR)/genSubRecord.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/OXCS700.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: OXCS700App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-OceanOpticsSpectrometer
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-RohdeSchwartzNGPS
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+dbdExpand.pl: Can't find file 'devSequencer.dbd'
+  while reading 'devSequencer.dbd' to create 'rsngps.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/rsngps.dbd: $(COMMON_DIR)/devSequencer.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/rsngps.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: rsngpsApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-TDS3000
+dbdExpand.pl: Can't find file 'generalTimeNonVx.dbd'
+  while reading 'generalTimeNonVx.dbd' to create 'TDS3000.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/TDS3000.dbd: $(COMMON_DIR)/generalTimeNonVx.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/TDS3000.dbd] Error 255
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-TDS3000/TDS3000App/src/O.rhel9-x86_64'
+make[2]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-TDS3000/TDS3000App/src'
+make[1]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-TDS3000/TDS3000App'
+make: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: TDS3000App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-Thorlabs-fwsh
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: fwsh] Error 1
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-Thorlabs-fwsh/fwshApp/src/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-Thorlabs-fwsh/fwshApp/src'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-Thorlabs-fwsh/fwshApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: fwshApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-alicat
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:568: Warning: Base configure/RULES_BUILD file included more than once. Does configure/RELEASE have multiple pointers to /cds/group/pcds/epics/base/R7.0.3.1-2.0?
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: alicat] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: alicatApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-alio
+make[3]: *** No rule to make target '../O.Common/autosave_alio.req', needed by '../../../autosave/autosave_alio.req'.  Stop.
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-alio/alioApp/Db/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-alio/alioApp/Db'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-alio/alioApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: alioApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-andorCam
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `proc_scan_cpt':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:3117: undefined reference to `xdrstdio_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:3123: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:3132: undefined reference to `xdr_double'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:3142: undefined reference to `xdr_float'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `writeScanRecInProgress':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2382: undefined reference to `xdrstdio_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2388: undefined reference to `xdr_float'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2389: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2391: undefined reference to `xdr_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2397: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2401: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2407: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2432: undefined reference to `xdr_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2434: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2438: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2462: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2463: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2464: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2471: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2495: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2511: more undefined references to `xdr_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `writeScanRecInProgress':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2514: undefined reference to `xdr_float'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `writeScanRecCompleted':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2623: undefined reference to `xdrstdio_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2708: undefined reference to `xdr_double'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2708: undefined reference to `xdr_vector'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2728: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2719: undefined reference to `xdr_float'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2719: undefined reference to `xdr_vector'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `writeScanRecInProgress':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2557: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2565: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2575: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `saveExtraPV':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2264: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2282: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2286: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2317: undefined reference to `xdr_double'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2317: undefined reference to `xdr_vector'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2307: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2297: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2312: undefined reference to `xdr_float'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2302: undefined reference to `xdr_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(saveData.o): in function `writeScanRecCompleted':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2755: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(xdr_lib.o): in function `xdr_counted_string':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:39: undefined reference to `xdr_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:47: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:39: undefined reference to `xdr_short'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: andor] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: andorApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-archonCam
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/libarchonCCD.a', needed by 'archon'.  Stop.
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: archonApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-archstats
+make: *** No targets specified and no makefile found.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-arcus
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../saveData.c:2755: undefined reference to `xdr_long'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/lib/rhel9-x86_64/libsscan.a(xdr_lib.o): in function `xdr_counted_string':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:39: undefined reference to `xdr_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:47: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/sscan/R2.10.2-1.1.0/sscanApp/src/O.rhel9-x86_64/../xdr_lib.c:39: undefined reference to `xdr_short'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: arcus] Error 1
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-arcus/arcusApp/src/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-arcus/arcusApp/src'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-arcus/arcusApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: arcusApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-chiller
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: chiller] Error 1
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-chiller/chillerApp/src/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-chiller/chillerApp/src'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-chiller/chillerApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: chillerApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-concentrator
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: concentrator] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: concentratorApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-cryoPump
+make[3]: *** No rule to make target '../O.Common/autosave_cryoPump.req', needed by '../../../autosave/autosave_cryoPump.req'.  Stop.
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-cryoPump/cryoPumpApp/Db/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-cryoPump/cryoPumpApp/Db'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-cryoPump/cryoPumpApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: cryoPumpApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-cryotel
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+msi: Can't open file 'sunpower.tpl-arch'
+input: '
+' at 
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.archive:62: ../O.Common/cryotel.archive] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-detector-ctrl
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: detector] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: detector-ctrlApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-device_states
+Installing DB_INSTALLS ../../../db/save_restoreStatus.db
+make[3]: *** No rule to make target 'one_state.db', needed by '../../../db/one_state.db'.  Stop.
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-device_states/statesApp/Db/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-device_states/statesApp/Db'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-device_states/statesApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: statesApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-dso4000
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/libpcre.a', needed by 'dso4000'.  Stop.
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-dso4000/app/src/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-dso4000/app/src'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-dso4000/app'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-edmund
+Installing created db file ../../../db/iocAdmin.db
+mkdir ../../../db
+make[3]: *** No rule to make target 'edmund.db', needed by '../../../db/edmund.db'.  Stop.
+make[3]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-edmund/edmundApp/Db/O.rhel9-x86_64'
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-edmund/edmundApp/Db'
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-edmund/edmundApp'
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: edmundApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-edtCam
+(pcds-5.9.1) janeliu@psbuild-rocky9-01:ioc-common-edtCam $ make distclean
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used
+make -C ./configure realclean
+make[1]: Entering directory '/cds/home/j/janeliu/git/iocs/ioc-common-edtCam/configure'
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used
+rm -rf O.*
+make[1]: Leaving directory '/cds/home/j/janeliu/git/iocs/ioc-common-edtCam/configure'
+make -C ./edtApp realclean
+make[1]: Entering directory '/cds/home/j/janeliu/git/iocs/ioc-common-edtCam/edtApp'
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-ek9000
+make[2]: Entering directory '/cds/home/j/janeliu/git/iocs/ioc-common-ek9000/configure/O.rhel9-x86_64'
+Setting BASE_MODULE_VERSION to R7.0.3.1-2.0 in ../../RELEASE_SITE
+perl -CSD /cds/group/pcds/epics/base/R7.0.3.1-2.0/bin/rhel9-x86_64/convertRelease.pl checkRelease
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used while checking module
+        EK9000 = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/ek9000/R1.7.3
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used while checking module
+        EK9000 = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/ek9000/R1.7.3
+EPICS/Release.pm: Undefined macro $(BASE_MODULE_VERSION) used while checking module
+        EK9000 = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/ek9000/R1.7.3
+EPICS/Release.pm: Undefined macro $(EPICS_SITE_TOP) used while checking module
+        EK9000 = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/ek9000/R1.7.3
+
+Definition of ASYN conflicts with EK9000 support.
+In this application or module, a RELEASE file
+conflicts with EK9000 at /cds/group/pcds/epics/R7.0.3.1-2.0/modules/ek9000/R1.7.3
+  Here: ASYN = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2
+  EK9000: ASYN = /asyn/R4.39-1.0.2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-eventSeqCfg
+../arrayOp.c:44:20: fatal error: tsDefs.h: No such file or directory
+ #include <tsDefs.h>
+                    ^
+compilation terminated.
+make[3]: *** [arrayOp.o] Error 1
+make[3]: Leaving directory `/cds/home/j/janeliu/git/iocs/ioc-common-eventSeqCfg/eventSequencerApp/src/O.rhel7-x86_64'
+make[2]: *** [install.rhel7-x86_64] Error 2
+make[2]: Leaving directory `/cds/home/j/janeliu/git/iocs/ioc-common-eventSeqCfg/eventSequencerApp/src'
+make[1]: *** [src.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-fiber_stretcher
+Definition of ASYN_MODULE_VERSION conflicts with STD support.
+In this application or module, a RELEASE file
+conflicts with STD at /cds/home/t/tjohnson/trunk/modules/std
+  Here: ASYN_MODULE_VERSION = R4.39-1.0.2
+  STD: ASYN_MODULE_VERSION = R4.39-1.0.0
+Definition of ASYN conflicts with STD support.
+In this application or module, a RELEASE file
+conflicts with STD at /cds/home/t/tjohnson/trunk/modules/std
+  Here: ASYN = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2
+  STD: ASYN = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.0
+Definition of SNCSEQ conflicts with STD support.
+In this application or module, a RELEASE file
+conflicts with STD at /cds/home/t/tjohnson/trunk/modules/std
+  Here: SNCSEQ = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/seq/R2.2.4-1.2
+  STD: SNCSEQ = /cds/group/pcds/epics/R7.0.3.1-2.0/modules/seq/R2.2.4-1.0
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-flowmeter
+$ make distclean
+make[2]: Entering directory `/cds/home/j/janeliu/git/iocs/ioc-common-flowmeter/flowmeterApp/srcProtocol'
+Makefile:13: ../../configure/RULES.copy: No such file or directory
+make[2]: *** No rule to make target `../../configure/RULES.copy'.  Stop.
+make[2]: Leaving directory `/cds/home/j/janeliu/git/iocs/ioc-common-flowmeter/flowmeterApp/srcProtocol'
+make[1]: *** [srcProtocol.realclean] Error 2
+make[1]: Leaving directory `/cds/home/j/janeliu/git/iocs/ioc-common-flowmeter/flowmeterApp'
+make: *** [flowmeterApp.realclean] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-galil
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-gasCabinet
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-generic_modbus
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-gentec
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'gentec.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/gentec.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/gentec.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-hexapod
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-history
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-hpi_6012
+configure/RELEASE:47: *** Invalid AUTOSAVE: /reg/g/pcds/epics/R7.0.2-2.0/modules/autosave/R5.11-2.0.0/lib/.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-iTech_RFOF
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-iXblueMBC
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'iXblueMBC.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/iXblueMBC.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/iXblueMBC.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: iXblueMBCApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-interlock
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-ip
+dbdExpand.pl: Leaving context "file '../ipVXInclude.dbd'", found "file '../ipInclude.dbd'" instead.
+		Braces must be closed in the same file they open in.
+Context: file '../ipVXInclude.dbd'
+  while reading '../ipVXInclude.dbd' to create 'ipVX.dbd'
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:388: ../O.Common/ipVX.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: ipApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-ipimb
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-isegFPS
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-isegPower
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+../../configure/RELEASE:63: *** Invalid AUTOSAVE: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/autosave/R5.11-2.0.0/lib/linux-arm-apalis.  Stop.
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.linux-arm-apalis] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-jungfrau4m
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-knobBox
+dbdExpand.pl: Can't find file 'autosave.dbd'
+  while reading 'autosave.dbd' to create 'knob.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/knob.dbd: $(COMMON_DIR)/autosave.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/knob.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: knobApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-labMax-TOP
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/libpcre.a', needed by 'labMax'.  Stop.
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: labMax-TopApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lakeshore331
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lakeshore331.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lakeshore331.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lakeshore331.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lakeshore331App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lakeshore335
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lakeshore335.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lakeshore335.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lakeshore335.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lakeshore335App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lakeshore336
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+make[3]: Circular build <- buildInstall dependency dropped.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lakeshore340
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lakeshore340.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lakeshore340.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lakeshore340.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lakeshore340App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lcp
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lcp.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lcp.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lcp.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lcpApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lecroy
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lecroy.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lecroy.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lecroy.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lecroyApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lens
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lens.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lens.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'genSubRecord.dbd'
+  while reading 'genSubRecord.dbd' to create 'lens.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lens.dbd: $(COMMON_DIR)/genSubRecord.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lens.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lensApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-leyboldim540
+make: *** No targets specified and no makefile found.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-locker_manager
+/usr/bin/env: ‘python’: No such file or directory
+make[4]: *** [/cds/group/pcds/epics/R7.0.3.1-2.0/modules/stepseq/R1.0.9/configure/RULES.dbs:6: ../O.Common/frequencyLock.db] Error 127
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: frequencyLock.install] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lodcm
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lodcm.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lodcm.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lodcm.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lodcmApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-lusiAtt
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'lusiAtt.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lusiAtt.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'genSubRecord.dbd'
+  while reading 'genSubRecord.dbd' to create 'lusiAtt.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/lusiAtt.dbd: $(COMMON_DIR)/genSubRecord.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/lusiAtt.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: lusiAttApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-menhir-1550
+EPICS/Release.pm: Include file './RELEASE_SITE' not found
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(BASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(EPICS_SITE_TOP) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+configure/RELEASE:3: RELEASE_SITE: No such file or directory
+make: *** No rule to make target 'RELEASE_SITE'.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-mks670b
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'mks670b.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/mks670b.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/mks670b.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: mks670bApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-mksrga
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-mmc
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-mods
+/usr/bin/env: ‘python’: No such file or directory
+make[4]: *** [/cds/group/pcds/epics/R7.0.3.1-2.0/modules/stepseq/R1.0.9/configure/RULES.dbs:6: ../O.Common/tile.db] Error 127
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: tile.install] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-mpod
+make[3]: /cds/group/pcds/pkg_mgr/release/net-snmp/5.7.2/rhel9-x86_64//bin/net-snmp-config: No such file or directory
+/usr/bin/ld: cannot find -lnetsnmp
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: mpod] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: mpodApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-navitarZoom
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'navitarZoom.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/navitarZoom.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'genSubRecord.dbd'
+  while reading 'genSubRecord.dbd' to create 'navitarZoom.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/navitarZoom.dbd: $(COMMON_DIR)/genSubRecord.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/navitarZoom.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: navitarZoomApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-omegaTemp
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'omegaTemp.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/omegaTemp.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/omegaTemp.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: omegaTempApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-optics-pitch-notepad
+Can't open perl script "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1": Is a directory
+/reg/g/pcds/epics/base/R3.15.5-2.0/configure/CONFIG:54: /reg/g/pcds/epics/base/R3.15.5-2.0/configure/os/CONFIG.rhel9-x86_64.Common: No such file or directory
+make[1]: *** No rule to make target '/reg/g/pcds/epics/base/R3.15.5-2.0/configure/os/CONFIG.rhel9-x86_64.Common'.  Stop.
+make: *** [/reg/g/pcds/controls/macro/RULES_EXPAND:36: install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pciAcromag
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pfts_manager
+/usr/bin/env: ‘python’: No such file or directory
+make[3]: *** [/cds/group/pcds/epics/R7.0.3.1-2.0/modules/stepseq/R1.0.9/configure/RULES.dbs:6: ../O.Common/hutch_global.db] Error 127
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: Db.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pgpCamlink
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pgpRogue
+dbdExpand.pl: Can't find file 'rogueSupport.dbd'
+  while reading 'rogueSupport.dbd' to create 'pgpRogue.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/pgpRogue.dbd: $(COMMON_DIR)/rogueSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/pgpRogue.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: rogueApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/librogueRegister.a', needed by 'pgpWave8'.  Stop.
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: pgpWave8App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pgp_switch
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pi-c663
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-piMotion
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'piMotion.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/piMotion.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'evrSupport.dbd'
+  while reading 'evrSupport.dbd' to create 'piMotion.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/piMotion.dbd: $(COMMON_DIR)/evrSupport.dbd
+dbdExpand.pl: Can't find file 'devMrfEr.dbd'
+  while reading 'devMrfEr.dbd' to create 'piMotion.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/piMotion.dbd: $(COMMON_DIR)/devMrfEr.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/piMotion.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: piMotionApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pico874x
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'motion.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/motion.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/motion.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: motionApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'motion.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/motion.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/motion.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: motionApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pnccd
+../drvPnccd.c:31:10: fatal error: hrlUtils.h: No such file or directory
+   31 | #include "hrlUtils.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+dbdExpand.pl: Can't find file 'autosave.dbd'
+  while reading 'autosave.dbd' to create 'pnccd.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/pnccd.dbd: $(COMMON_DIR)/autosave.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/pnccd.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: pnccdApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-polyScienceChiller
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'polyScienceChiller.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/polyScienceChiller.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/polyScienceChiller.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: polyScienceChillerApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-protura
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-pulsepicker
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-qadc
+../drvQADC134.cpp:28:9: fatal error: hsd134/Module134.hh: No such file or directory
+   28 | #include<hsd134/Module134.hh>
+      |         ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:255: drvQADC134.o] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: qadc134Src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-qpc
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-questar
+dbdExpand.pl: Can't find file 'Bx9000_MBT.dbd'
+  while reading 'Bx9000_MBT.dbd' to create 'qstar.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/qstar.dbd: $(COMMON_DIR)/Bx9000_MBT.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/qstar.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: qstarApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-raritan
+make[3]: /cds/group/pcds/pkg_mgr/release/net-snmp/5.7.2/rhel9-x86_64//bin/net-snmp-config: No such file or directory
+/usr/bin/ld: cannot find -lnetsnmp
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: snmp] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-roving_jf
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-rsSMX100X
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-rvc300
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'rvc300.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/rvc300.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/rvc300.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: rvc300App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-scandinova
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-sds
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'sampleDelivery.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/sampleDelivery.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'modbus.dbd'
+  while reading 'modbus.dbd' to create 'sampleDelivery.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/sampleDelivery.dbd: $(COMMON_DIR)/modbus.dbd
+dbdExpand.pl: Can't find file 'modbusSupport.dbd'
+  while reading 'modbusSupport.dbd' to create 'sampleDelivery.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/sampleDelivery.dbd: $(COMMON_DIR)/modbusSupport.dbd
+dbdExpand.pl: Can't find file 'genSubRecord.dbd'
+  while reading 'genSubRecord.dbd' to create 'sampleDelivery.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/sampleDelivery.dbd: $(COMMON_DIR)/genSubRecord.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/sampleDelivery.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: sampleApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-setra
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-shimadzu-lc20
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-sim900
+configure/RELEASE:8: *** missing separator.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-slice-dhv
+EPICS/Release.pm: Include file './RELEASE_SITE' not found
+EPICS/Release.pm: Undefined macro $(ASYNDRIBBLE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+EPICS/Release.pm: Undefined macro $(BASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(EPICS_SITE_TOP) used 
+EPICS/Release.pm: Undefined macro $(EPICS_MODULES) used 
+configure/RELEASE:3: RELEASE_SITE: No such file or directory
+make: *** No rule to make target 'RELEASE_SITE'.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-smaractMCS
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'mcs.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/mcs.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/mcs.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-smc100
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-sr620
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'sr620.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/sr620.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/sr620.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: sr620App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-srs-ptc10
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'ptc10.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/ptc10.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/ptc10.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: ptc10App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-srs
+make: *** No targets specified and no makefile found.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-srsrga
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-staubli
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: staubli] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: staubliApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-tc720
+dbdExpand.pl: Can't find file 'stream.dbd'
+  while reading 'stream.dbd' to create 'tc720.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/tc720.dbd: $(COMMON_DIR)/stream.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/tc720.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: tc720App.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-tdkGen
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'tdkGen.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/tdkGen.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/tdkGen.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: tdkGenApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-test
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-thermocon
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-thermocube
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateDeviceLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:320: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:295: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyDevLink':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:402: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:393: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiDestroyIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:745: undefined reference to `xdr_void'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:769: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:754: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:757: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSrqEnable':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1584: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1573: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiBusStatus':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:540: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:521: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:523: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:531: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiConnectPort':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:930: undefined reference to `clnttcp_create'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:933: undefined reference to `clnt_spcreateerror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiCreateIrqChannel':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:721: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:718: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:729: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWriteAddressed':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:446: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:434: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiSerialPoll':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1644: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1629: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiIfc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1464: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1456: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiWrite':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1286: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRead':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1204: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(drvVxi11.o): in function `vxiRen':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1513: undefined reference to `xdr_free'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/../../asyn/vxi11/drvVxi11.c:1505: undefined reference to `clnt_sperror'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Link':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:13: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_AddrFamily':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:23: undefined reference to `xdr_enum'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_Flags':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ErrorCode':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:26: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:108: undefined reference to `xdr_string'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:67: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:104: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:106: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Create_LinkResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:122: undefined reference to `xdr_u_short'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:124: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:136: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:138: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:142: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_WriteResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:154: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:213: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:221: undefined reference to `xdr_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:215: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:217: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:233: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:235: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_ReadStbResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:247: undefined reference to `xdr_u_char'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_GenericParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:261: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:263: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_RemoteFunc':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:277: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:320: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:322: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o):/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:324: more undefined references to `xdr_u_int' follow
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_EnableSrqParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:338: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:340: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_LockParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:354: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdParms':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:437: undefined reference to `xdr_bytes'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:427: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:429: undefined reference to `xdr_u_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:431: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:433: undefined reference to `xdr_bool'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:435: undefined reference to `xdr_int'
+/usr/bin/ld: /cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/lib/rhel9-x86_64/libasyn.a(vxi11core_xdr.o): in function `xdr_Device_DocmdResp':
+/cds/group/pcds/epics/R7.0.3.1-2.0/modules/asyn/R4.39-1.0.2/asyn/O.rhel9-x86_64/vxi11core_xdr.c:449: undefined reference to `xdr_bytes'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: chiller] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: chillerApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-thermotek
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-timetool
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+/usr/bin/env: ‘python’: No such file or directory
+PSPKG Error: Release /cds/group/pcds/pkg_mgr/release/controls-0.0.6/x86_64-rhel9-gcc114-opt not found!
+make[1]: *** No rule to make target '/iocBoot/templates/Makefile', needed by 'build/iocBoot/ioc-tst-tt-01/Makefile'.  Stop.
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: children.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-tricatt
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: overriding recipe for target '../../../db/save_restoreStatus.db'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:533: warning: ignoring old recipe for target '../../../db/save_restoreStatus.db'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-unixCam
+../ptm4k2Record.cc:25:10: fatal error: edtinc.h: No such file or directory
+   25 | #include "edtinc.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+dbdExpand.pl: Can't find file 'edt_unix.dbd'
+  while reading 'edt_unix.dbd' to create 'unixCam.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/unixCam.dbd: $(COMMON_DIR)/edt_unix.dbd
+dbdExpand.pl: Can't find file 'evrSupport.dbd'
+  while reading 'evrSupport.dbd' to create 'unixCam.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/unixCam.dbd: $(COMMON_DIR)/evrSupport.dbd
+dbdExpand.pl: Can't find file 'devMrfEr.dbd'
+  while reading 'devMrfEr.dbd' to create 'unixCam.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/unixCam.dbd: $(COMMON_DIR)/devMrfEr.dbd
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'unixCam.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/unixCam.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Can't find file 'drvAsynEdtCamera.dbd'
+  while reading 'drvAsynEdtCamera.dbd' to create 'unixCam.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/unixCam.dbd: $(COMMON_DIR)/drvAsynEdtCamera.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/unixCam.dbd] Error 255
+make[2]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/reg/g/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4
+/usr/bin/ld: usdusb4sync.o: in function `usdusb4SyncObject::Acquire()':
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:116: undefined reference to `USB4_ReadFIFOBufferStruct'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:61: undefined reference to `USB4_StopAcquisition'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:78: undefined reference to `USB4_StopAcquisition'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:82: undefined reference to `USB4_SetMultiplier'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:83: undefined reference to `USB4_SetCounterMode'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:84: undefined reference to `USB4_SetForward'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:85: undefined reference to `USB4_SetCaptureEnabled'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:86: undefined reference to `USB4_SetCounterEnabled'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:87: undefined reference to `USB4_GetControlMode'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:101: undefined reference to `USB4_SetTimeBasedLogSettings'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:104: undefined reference to `USB4_ClearFIFOBuffer'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:105: undefined reference to `USB4_EnableFIFOBuffer'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:106: undefined reference to `USB4_ClearCapturedStatus'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:107: undefined reference to `USB4_SetDigitalInputTriggerConfig'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:108: undefined reference to `USB4_ClearDigitalInputTriggerStatus'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:109: undefined reference to `USB4_StartAcquisition'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:98: undefined reference to `USB4_ResetCount'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../usdusb4sync.cpp:93: undefined reference to `USB4_SetPresetValue'
+/usr/bin/ld: drvUSDUSB4.o: in function `reset_usb':
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:31: undefined reference to `libusb_init'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:32: undefined reference to `libusb_open_device_with_vid_pid'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:34: undefined reference to `libusb_reset_device'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:35: undefined reference to `libusb_close'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:40: undefined reference to `libusb_exit'
+/usr/bin/ld: drvUSDUSB4.o: in function `usdusb4Create':
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:31: undefined reference to `libusb_init'
+/usr/bin/ld: drvUSDUSB4.o: in function `reset_usb':
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:32: undefined reference to `libusb_open_device_with_vid_pid'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:34: undefined reference to `libusb_reset_device'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:35: undefined reference to `libusb_close'
+/usr/bin/ld: /cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:40: undefined reference to `libusb_exit'
+/usr/bin/ld: drvUSDUSB4.o: in function `usdusb4Create':
+/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/app/src/O.rhel9-x86_64/../drvUSDUSB4.cpp:60: undefined reference to `USB4_Initialize'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:219: usdusb4] Error 1
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-uxi
+make[1]: *** psuxi/nsCamera/comms/ZestETM1: No such file or directory.  Stop.
+make: *** [Makefile:7: psuxi/nsCamera/comms/ZestETM1] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-vacuum
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/libpcre.a', needed by 'vacuum'.  Stop.
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: app.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-vimbaCam
+make[3]: *** No rule to make target '../../../lib/rhel9-x86_64/libADVimba.a', needed by 'vimba'.  Stop.
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: vimbaApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-visar
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+EPICS/Release.pm: Undefined macro $(PVDATABASE_MODULE_VERSION) used 
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_BUILD:196: checkRelease] Error 1
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: configure.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-vonHamos
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'vonHamosApp.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/vonHamosApp.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/vonHamosApp.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: vonHamosApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-wattmeter
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'wattmeter.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/wattmeter.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/wattmeter.dbd] Error 255
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: wattmeterApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-wave8
+Makefile:65: warning: overriding recipe for target 'realclean'
+/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:86: warning: ignoring old recipe for target 'realclean'
+
+
+/cds/home/j/janeliu/git/iocs/ioc-common-xyGraphTrigger
+dbdExpand.pl: Can't find file 'autosaveSupport.dbd'
+  while reading 'autosaveSupport.dbd' to create 'xyGraphTrigger.dbd'
+  Your Makefile may need this dependency rule:
+    $(COMMON_DIR)/xyGraphTrigger.dbd: $(COMMON_DIR)/autosaveSupport.dbd
+dbdExpand.pl: Exiting due to errors
+make[3]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES.Db:406: ../O.Common/xyGraphTrigger.dbd] Error 2
+make[2]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_ARCHS:58: install.rhel9-x86_64] Error 2
+make[1]: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: src.install] Error 2
+make: *** [/cds/group/pcds/epics/base/R7.0.3.1-2.0/configure/RULES_DIRS:84: xyGraphTriggerApp.install] Error 2
+
+
+/cds/home/j/janeliu/git/iocs/manual_updates
+make: *** No targets specified and no makefile found.  Stop.
+
+
+/cds/home/j/janeliu/git/iocs/rocky9_ioc_migration
+make: *** No targets specified and no makefile found.  Stop.
