@@ -13,6 +13,7 @@ export HOME_DIR="$(
 )"
 error_log="$HOME_DIR/error.log"
 not_building="$HOME_DIR/does_not_build.txt"
+building="$HOME_DIR/builds_correctly.txt"
 
 rm "$error_log"
 rm "$not_building"
@@ -41,6 +42,7 @@ for dir in */; do
                 printf "\nFailure. An error occurred during make. See error.log for details.\n"
                 echo -e "$dir" >>$not_building
             else
+                echo -e "$dir" >>$building
                 printf "\nSuccessfully ran 'make'. Attempting to open a pull request.\n"
                 gh repo set-default git@github.com:pcdshub/$dir.git
                 gh pr create --title "ECS-6549 Build and release IOCs for Rocky 9" --body "Updated configuration files for Rocky 9 migration."
