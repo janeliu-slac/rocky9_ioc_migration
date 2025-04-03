@@ -86,6 +86,3 @@ ioc-common-vimbaCam/
 ioc-common-visar/
 ioc-common-vonHamos/
 ioc-common-wattmeter/
-manual_updates/
-rocky9_ioc_migration/
-test/
