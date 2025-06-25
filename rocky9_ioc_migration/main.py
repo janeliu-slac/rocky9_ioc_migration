@@ -12,9 +12,14 @@ This script also updates BASE_MODULE_VERSION, EPICS_SITE_TOP, and PSPKG_ROOT
 in RELEASE_SITE.
 
 Note that ioc-common-ads-ioc and ioc-common-gigECam are configured differently
-from other common IOCs. They may use older EPICS module versions and should be
-updated by hand. Check the PCDS Rocky 9 Build Status Confluence page for the
-right versions to use.
+from other common IOCs. They use older EPICS module versions and should be
+updated by hand. This script shouldn't be run on any of the top 15 most used 
+common IOCs, those IOCs should be updated individually.
+
+This script assumes that the structure of your IOC migration dev space is 
+"<path_to_dev_space>/iocs/rocky9_ioc_migration/rocky9_ioc_migration/", where 
+all common iocs are placed in the folder /iocs/. The top 15 most used IOCs 
+can be placed in a separate folder, like <path_to_workspace>/iocs/top_15_iocs.
 """
 
 import json
@@ -65,8 +70,8 @@ def create_ioc_lists():
             if os.path.exists(file_release_site):
                 iocs_release_site.append(file_release_site)
 
-    # Look through all configure/RELEASE files and create a set of module
-    # environmental variables.
+    # Create a set of module environmental variables that appear in all
+    # configure/RELEASE files.
     for filepath in iocs_config_release:
         if os.path.isfile(filepath):
             with open(filepath, "r+") as file:
@@ -113,8 +118,12 @@ def update_configure_release_file():
     env_var_dict["TIMING_API_MODULE_VERSION"] = modules_dict["timingapi"]
     env_var_dict["DIAG_TIMER_MODULE_VERSION"] = modules_dict["diagtimer"]
 
-    # Update modules environmental variables that require an older
-    # version number.
+    # Update modules environmental variables to use an older version number.
+    # There are some weird glitches and other issues that require these
+    # modules to use an older version number. For example, the current version
+    # the streamdevice module is R2.8.9-1.3.1 but an older version of
+    # streamdevice from 2022 was labeled R2.8.22-1.0.0, which causes this
+    # script to get the wrong version.
     with open("module_version_exceptions.json") as file:
         exceptions_dict = json.load(file)
 
